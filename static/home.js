@@ -8,7 +8,7 @@ $(document).ready(function () {
         console.log(data);
         data.forEach((task) => {
           $("#tasks-container").append(
-            `<li>${task.title} - ${task.description}</li>`
+            `<div class="task-item">${task.title} - ${task.description}</div>`
           );
         });
       });

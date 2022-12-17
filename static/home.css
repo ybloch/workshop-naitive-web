@@ -1,0 +1,9 @@
+.task-item {
+    border-color: #252525;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #bcfcbf81;
+    padding: 15px 32px;
+    border-radius: 12px;
+    margin: 10px;
+}
